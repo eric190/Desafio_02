@@ -1,0 +1,60 @@
+using System;
+
+namespace Desafio_02
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string nome1 = "Ubuntu Silva";
+            int idade1 = 27;
+            double peso1 = 76;
+            decimal altura1 = 155;
+            bool EhDev1 = true;
+
+
+            string nome2 = "Ubuntu Neymar";
+            int idade2 = 34;
+            double peso2 = 65;
+            decimal altura2 = 174;
+            bool EhDev2 = true;
+
+
+            string nome3 = "Ubuntu Silva";
+            int idade3 = 18;
+            double peso3 = 55;
+            decimal altura3 = 168;
+            bool EhDev3 = false;
+            Console.WriteLine("Soma das idades:");
+            Console.WriteLine(idade1 + idade2 + idade3);
+            Console.WriteLine("Nome dos Ubuntus:");
+            Console.WriteLine(nome1);
+            Console.WriteLine(nome2);
+            Console.WriteLine("Média IMC de todos os Ubuntus:");
+            Console.WriteLine("Ubuntu 1:");
+            Console.WriteLine(peso1 / 310);
+            Console.WriteLine("Ubuntu 2:");
+            Console.WriteLine(peso2 / 348);
+            Console.WriteLine("Ubuntu 3:");
+            Console.WriteLine(peso3 / 336);
+            Console.WriteLine("Contar quantos ubuntus são devs:");
+            Console.WriteLine("Ubuntu 1, Ubuntu 2");
+            Console.WriteLine("Ubuntus com sobrenome Silva:");
+            Console.WriteLine(nome1);
+            Console.WriteLine(nome3);
+
+            
+
+
+            
+            
+            
+          
+            
+
+           
+                
+
+        }
+    }
+}
